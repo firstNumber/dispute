@@ -1,0 +1,860 @@
+2019-05-31 17:40:29,252 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 1788 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 17:40:29,259 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 17:40:29,506 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 17:40:29,517 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 17:40:32,279 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:40:32,283 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:40:32,352 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2019-05-31 17:40:32,381 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:40:32,383 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:40:32,403 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-31 17:40:33,115 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73eb0a58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:40:33,908 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 17:40:33,950 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 17:40:33,950 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 17:40:34,238 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 17:40:34,239 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 4722 ms
+2019-05-31 17:40:34,354 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 17:40:34,546 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 17:40:35,706 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:40:35,867 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 17:40:35,873 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 17:40:37,012 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 17:40:37,119 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 17:40:37,128 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 8.898 seconds (JVM running for 13.946)
+2019-05-31 17:41:46,646 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 17:41:46,647 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 17:41:46,664 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 16 ms
+2019-05-31 17:45:14,068 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 14256 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 17:45:14,080 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 17:45:14,322 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 17:45:14,327 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 17:45:16,067 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:45:16,075 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:45:16,113 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-05-31 17:45:16,132 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:45:16,134 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:45:16,152 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-05-31 17:45:16,752 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4a58088] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:45:17,316 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 17:45:17,358 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 17:45:17,359 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 17:45:17,573 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 17:45:17,574 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3247 ms
+2019-05-31 17:45:17,681 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 17:45:17,851 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 17:45:19,088 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:45:19,368 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 17:45:19,375 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 17:45:20,655 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 17:45:20,757 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 17:45:20,764 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 8.45 seconds (JVM running for 10.968)
+2019-05-31 17:45:28,222 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 17:45:28,223 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 17:45:28,234 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 11 ms
+2019-05-31 17:46:57,985 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:46:57,988 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 17:46:57,996 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 17:47:47,036 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 19868 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 17:47:47,041 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 17:47:47,223 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 17:47:47,224 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 17:47:49,792 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:47:49,795 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:47:49,849 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-05-31 17:47:49,872 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:47:49,875 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:47:49,900 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-05-31 17:47:50,838 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73e531c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:47:51,689 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 17:47:51,757 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 17:47:51,758 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 17:47:52,149 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 17:47:52,150 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 4923 ms
+2019-05-31 17:47:52,350 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 17:47:52,602 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 17:47:54,388 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:47:54,610 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 17:47:54,620 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 17:47:55,700 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 17:47:55,787 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 17:47:55,794 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 10.677 seconds (JVM running for 14.382)
+2019-05-31 17:47:58,744 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 17:47:58,746 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 17:47:58,761 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 15 ms
+2019-05-31 17:53:43,603 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 11600 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 17:53:43,610 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 17:53:43,751 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 17:53:43,753 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 17:53:45,624 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:53:45,627 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:53:45,677 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-05-31 17:53:45,701 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 17:53:45,702 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 17:53:45,721 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-05-31 17:53:46,278 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63b46ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 17:53:46,792 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 17:53:46,828 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 17:53:46,829 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 17:53:46,999 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 17:53:47,002 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3246 ms
+2019-05-31 17:53:47,101 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 17:53:47,283 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 17:53:48,348 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 17:53:48,520 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 17:53:48,525 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 17:53:49,455 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 17:53:49,547 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 17:53:49,558 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 7.375 seconds (JVM running for 9.897)
+2019-05-31 17:54:00,450 [INFO] [http-nio-8089-exec-2] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 17:54:00,452 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 17:54:00,471 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 18 ms
+2019-05-31 18:14:18,065 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 11776 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:14:18,071 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:14:18,258 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:14:18,259 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:14:19,987 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:14:19,990 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:14:20,021 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-05-31 18:14:20,048 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:14:20,050 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:14:20,066 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-05-31 18:14:20,690 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9257d5e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:14:21,164 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:14:21,202 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:14:21,203 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:14:21,364 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:14:21,364 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3105 ms
+2019-05-31 18:14:21,481 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:14:21,630 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:14:21,701 [WARN] [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [C:\Users\zdwljs\Desktop\dispute\target\classes\com\disp\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/disp/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+2019-05-31 18:14:21,702 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:14:21,704 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:14:21,710 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+2019-05-31 18:14:21,743 [INFO] [restartedMain] o.s.b.a.logging.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-31 18:14:21,754 [ERROR] [restartedMain] org.springframework.boot.SpringApplication [SpringApplication.java : 858] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [C:\Users\zdwljs\Desktop\dispute\target\classes\com\disp\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/disp/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.disp.App.main(App.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [C:\Users\zdwljs\Desktop\dispute\target\classes\com\disp\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/disp/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao' defined in file [C:\Users\zdwljs\Desktop\dispute\target\classes\com\disp\dao\UserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/disp/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/disp/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1500)
+	... 48 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 61 common frames omitted
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.disp.config.MybatisPlusConfig.sqlSessionFactory(MybatisPlusConfig.java:70)
+	at com.disp.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$c1db2e8a.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.disp.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$c1db2e8a$$FastClassBySpringCGLIB$$7513617f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.disp.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$c1db2e8a.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 62 common frames omitted
+2019-05-31 18:14:51,014 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 10788 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:14:51,022 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:14:51,176 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:14:51,177 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:14:52,774 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:14:52,776 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:14:52,820 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2019-05-31 18:14:52,837 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:14:52,839 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:14:52,853 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-31 18:14:53,441 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$922c57b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:14:53,978 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:14:54,017 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:14:54,018 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:14:54,240 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:14:54,241 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3063 ms
+2019-05-31 18:14:54,340 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:14:54,512 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:14:55,642 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:14:55,849 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:14:55,863 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:14:57,164 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:14:57,261 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:14:57,267 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 7.787 seconds (JVM running for 10.228)
+2019-05-31 18:15:05,949 [INFO] [http-nio-8089-exec-2] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:15:05,949 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:15:05,962 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 12 ms
+2019-05-31 18:15:06,052 [ERROR] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: java.lang.NullPointerException
+### Cause: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at org.apache.ibatis.plugin.InterceptorChain.pluginAll(InterceptorChain.java:31)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.newExecutor(MybatisConfiguration.java:168)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:98)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:428)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy73.selectPage(Unknown Source)
+	at com.disp.service.impl.UserServiceImpl.getUserPage(UserServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:206)
+	at com.sun.proxy.$Proxy76.getUserPage(Unknown Source)
+	at com.disp.controller.UserController.getUserPage(UserController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-05-31 18:15:52,494 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:15:52,496 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:16:11,539 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 17252 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:16:11,544 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:16:11,694 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:16:11,695 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:16:14,339 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:16:14,345 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:16:14,374 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-05-31 18:16:14,393 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:16:14,395 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:16:14,416 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-05-31 18:16:15,122 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1035fdf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:16:15,784 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:16:15,831 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:16:15,833 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:16:16,112 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:16:16,113 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 4417 ms
+2019-05-31 18:16:16,217 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:16:16,382 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:16:17,641 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:16:17,823 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:16:17,828 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:16:19,172 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:16:19,249 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:16:19,255 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 9.791 seconds (JVM running for 14.292)
+2019-05-31 18:16:29,075 [INFO] [http-nio-8089-exec-2] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:16:29,075 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:16:29,086 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 10 ms
+2019-05-31 18:16:29,173 [ERROR] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: java.lang.NullPointerException
+### Cause: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at org.apache.ibatis.plugin.InterceptorChain.pluginAll(InterceptorChain.java:31)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.newExecutor(MybatisConfiguration.java:168)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:98)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:428)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy73.selectPage(Unknown Source)
+	at com.disp.service.impl.UserServiceImpl.getUserPage(UserServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:206)
+	at com.sun.proxy.$Proxy76.getUserPage(Unknown Source)
+	at com.disp.controller.UserController.getUserPage(UserController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-05-31 18:18:08,484 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:18:08,488 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:18:08,494 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:18:52,373 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 9976 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:18:52,379 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:18:52,499 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:18:52,501 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:18:55,976 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:18:55,990 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:18:56,041 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2019-05-31 18:18:56,072 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:18:56,075 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:18:56,107 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-05-31 18:18:56,949 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8894e08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:18:57,556 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:18:57,603 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:18:57,604 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:18:57,827 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:18:57,828 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 5325 ms
+2019-05-31 18:18:57,955 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:18:58,119 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:18:59,510 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:18:59,705 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:18:59,710 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:19:00,770 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:19:00,885 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:19:00,897 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 9.568 seconds (JVM running for 15.088)
+2019-05-31 18:19:23,858 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:19:23,858 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:19:23,872 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 13 ms
+2019-05-31 18:21:38,917 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:21:38,920 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:21:38,935 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:22:14,168 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 18536 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:22:14,179 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:22:14,423 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:22:14,424 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:22:15,968 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:22:15,972 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:22:16,022 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+2019-05-31 18:22:16,041 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:22:16,043 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:22:16,061 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-05-31 18:22:16,662 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca9aa8bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:22:17,179 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:22:17,217 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:22:17,219 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:22:17,400 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:22:17,402 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 2978 ms
+2019-05-31 18:22:17,507 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:22:17,679 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:22:18,722 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:22:18,906 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:22:18,911 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:22:20,244 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:22:20,352 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:22:20,358 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 7.912 seconds (JVM running for 10.695)
+2019-05-31 18:22:26,255 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:22:26,256 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:22:26,269 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 13 ms
+2019-05-31 18:22:26,357 [ERROR] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: java.lang.NullPointerException
+### Cause: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at org.apache.ibatis.plugin.InterceptorChain.pluginAll(InterceptorChain.java:31)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.newExecutor(MybatisConfiguration.java:168)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:98)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:428)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy73.selectPage(Unknown Source)
+	at com.disp.service.impl.UserServiceImpl.getUserPage(UserServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:206)
+	at com.sun.proxy.$Proxy76.getUserPage(Unknown Source)
+	at com.disp.controller.UserController.getUserPage(UserController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-05-31 18:23:14,724 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:23:14,726 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:23:14,732 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:23:29,994 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 11680 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:23:30,043 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:23:30,201 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:23:30,202 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:23:31,731 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:23:31,733 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:23:31,774 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-05-31 18:23:31,788 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:23:31,790 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:23:31,808 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-05-31 18:23:32,583 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81ec576c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:23:33,152 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:23:33,193 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:23:33,193 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:23:33,372 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:23:33,373 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3170 ms
+2019-05-31 18:23:33,495 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:23:33,682 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:23:34,823 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:23:35,122 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:23:35,130 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:23:36,460 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:23:36,547 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:23:36,555 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 8.925 seconds (JVM running for 12.87)
+2019-05-31 18:23:51,391 [INFO] [http-nio-8089-exec-2] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:23:51,392 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:23:51,402 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 10 ms
+2019-05-31 18:23:51,492 [ERROR] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: java.lang.NullPointerException
+### Cause: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at org.apache.ibatis.plugin.InterceptorChain.pluginAll(InterceptorChain.java:31)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.newExecutor(MybatisConfiguration.java:168)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:98)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:428)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy73.selectPage(Unknown Source)
+	at com.disp.service.impl.UserServiceImpl.getUserPage(UserServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:206)
+	at com.sun.proxy.$Proxy76.getUserPage(Unknown Source)
+	at com.disp.controller.UserController.getUserPage(UserController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-05-31 18:24:08,730 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:24:08,734 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:24:08,748 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:24:46,950 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 14280 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:24:46,961 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:24:47,326 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:24:47,326 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:24:49,473 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:24:49,475 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:24:49,512 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-05-31 18:24:49,530 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:24:49,531 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:24:49,548 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-05-31 18:24:50,236 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$481a52e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:24:50,794 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:24:50,839 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:24:50,840 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:24:51,025 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:24:51,026 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3699 ms
+2019-05-31 18:24:51,145 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:24:51,356 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:24:52,489 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:24:52,719 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:24:52,727 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:24:54,255 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:24:54,367 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:24:54,373 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 8.87 seconds (JVM running for 10.916)
+2019-05-31 18:24:59,994 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:24:59,995 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:25:00,011 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 15 ms
+2019-05-31 18:28:20,706 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:28:20,708 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:28:20,715 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:28:37,353 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 16848 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:28:37,359 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:28:37,534 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:28:37,535 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:28:39,360 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:28:39,363 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:28:39,397 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-05-31 18:28:39,426 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:28:39,428 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:28:39,443 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-31 18:28:40,156 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b5ea11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:28:41,018 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:28:41,109 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:28:41,111 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:28:41,365 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:28:41,367 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3830 ms
+2019-05-31 18:28:41,525 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:28:41,697 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:29:09,695 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:29:09,911 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:29:09,922 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:29:11,044 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:29:11,185 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:29:11,196 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 35.465 seconds (JVM running for 39.039)
+2019-05-31 18:29:26,470 [INFO] [http-nio-8089-exec-2] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:29:26,472 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:29:26,486 [INFO] [http-nio-8089-exec-2] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 13 ms
+2019-05-31 18:29:26,607 [ERROR] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: java.lang.NullPointerException
+### Cause: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at org.apache.ibatis.plugin.InterceptorChain.pluginAll(InterceptorChain.java:31)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.newExecutor(MybatisConfiguration.java:168)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:98)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:428)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:115)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:62)
+	at com.sun.proxy.$Proxy73.selectPage(Unknown Source)
+	at com.disp.service.impl.UserServiceImpl.getUserPage(UserServiceImpl.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:206)
+	at com.sun.proxy.$Proxy76.getUserPage(Unknown Source)
+	at com.disp.controller.UserController.getUserPage(UserController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-05-31 18:30:10,441 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:30:10,444 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:30:10,452 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed
+2019-05-31 18:30:22,242 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 50] Starting App on jsb-liyongzhen with PID 9916 (C:\Users\zdwljs\Desktop\dispute\target\classes started by zdwljs in C:\Users\zdwljs\Desktop\dispute)
+2019-05-31 18:30:22,247 [INFO] [restartedMain] com.disp.App [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2019-05-31 18:30:22,496 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-31 18:30:22,497 [INFO] [restartedMain] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java : 227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-31 18:30:24,363 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:30:24,366 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:30:24,429 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2019-05-31 18:30:24,450 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-31 18:30:24,452 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-31 18:30:24,471 [INFO] [restartedMain] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-05-31 18:30:25,070 [INFO] [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e325cd92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-31 18:30:25,604 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8089 (http)
+2019-05-31 18:30:25,657 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-05-31 18:30:25,658 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-31 18:30:25,832 [INFO] [restartedMain] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-05-31 18:30:25,835 [INFO] [restartedMain] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3337 ms
+2019-05-31 18:30:25,935 [INFO] [restartedMain] c.a.d.spring.boot.autoconfigure.DruidDataSourceAutoConfigure [DruidDataSourceAutoConfigure.java : 56] Init DruidDataSource
+2019-05-31 18:30:26,100 [INFO] [restartedMain] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1} inited
+2019-05-31 18:30:46,523 [INFO] [restartedMain] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:30:46,705 [WARN] [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [ThymeleafAutoConfiguration.java : 108] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-31 18:30:46,711 [WARN] [restartedMain] org.thymeleaf.templatemode.TemplateMode [TemplateMode.java : 150] [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-31 18:30:47,804 [INFO] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 57] LiveReload server is running on port 35729
+2019-05-31 18:30:47,938 [INFO] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8089 (http) with context path ''
+2019-05-31 18:30:47,952 [INFO] [restartedMain] com.disp.App [StartupInfoLogger.java : 59] Started App in 27.21 seconds (JVM running for 29.487)
+2019-05-31 18:30:48,027 [INFO] [http-nio-8089-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-31 18:30:48,028 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-05-31 18:30:48,045 [INFO] [http-nio-8089-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 16 ms
+2019-05-31 18:32:05,672 [INFO] [Thread-8] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 18:32:05,675 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1885] {dataSource-1} closing ...
+2019-05-31 18:32:05,682 [INFO] [Thread-8] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1955] {dataSource-1} closed

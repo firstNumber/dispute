@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -81,6 +82,12 @@ public class UserController {
             return R.error(Arrays.toString(e.getStackTrace()));
         }
 
+    }
+
+    @GetMapping(value = "getUserPage" )
+    public R getUserPage(Integer currentPage,Integer pageSize){
+       IPage<UserEntity> list = userService.getUserPage(currentPage,pageSize);
+        return R.ok(list);
     }
 
 }
